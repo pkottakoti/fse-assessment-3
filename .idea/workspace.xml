@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff3bc90-0949-4a6b-904b-517932e152e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/ControllerTests/EventControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/IntegrationTests/EventIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/ModelTests/EventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/RepositoryTests/EventRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/ServiceTests/EventServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alisnobba/eventService/repository/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/TestUtils/TestEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/TestUtils/TestEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/ServiceTests/EventServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alisnobba/eventService/ServiceTests/EventServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -80,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/alisnobba/eventService/ServiceTests/EventServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -444,6 +434,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -486,8 +477,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19755058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19755058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,7 +495,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -745,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/alisnobba/eventService/ServiceTests/EventServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
