@@ -14,8 +14,9 @@ public class EventController {
     }
 
     @PostMapping("/events")
-    public void saveEvent(Event event){
+    public String saveEvent(Event event){
         eventService.save(event);
+        return "saved";
     }
 
     @GetMapping("/events/all")
@@ -23,7 +24,7 @@ public class EventController {
         return eventService.findAll();
     }
 
-    @GetMapping("/events/user/{userId")
+    @GetMapping("/events/user/{userId}")
     public List<Event> getEventByUserId(@PathVariable String userId){
         return eventService.findByUserId(userId);
     }

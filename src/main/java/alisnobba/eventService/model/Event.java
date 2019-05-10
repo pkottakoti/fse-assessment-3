@@ -22,17 +22,17 @@ public class Event implements Serializable {
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date date;
     private String context;
-    public Event(String id, String type, String userId, Date date, String context) {
+    public Event(String id, String type, String userId, long millis, String context) {
         this.id = id;
         this.type = type;
         this.userId = userId;
-        this.date = date;
+        this.date = new Date(millis);
         this.context = context;
     }
-    public Event(String type, String userId, Date date, String context) {
+    public Event(String type, String userId,long millis, String context) {
         this.type = type;
         this.userId = userId;
-        this.date = date;
+        this.date = new Date(millis);
         this.context = context;
     }
     public Event(){
